@@ -111,7 +111,7 @@ ul.ingredientes{
   text-align: center;
 }
 
-@print{
+@media print{
 
   table, td, th {
       border: 1px solid;
