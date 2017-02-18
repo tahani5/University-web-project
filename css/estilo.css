@@ -7,7 +7,7 @@ body{
   background-color: #E2F9B8;
 }
 
-ul {
+ul.menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -16,11 +16,11 @@ ul {
     background-color: #313715;
 }
 
-li {
+ul.menu li {
     float: left;
 }
 
-li a {
+ul.menu li a {
     display: block;
     margin-top: 30px;
     font-size: 20px;
@@ -46,6 +46,7 @@ p{
 a{
   text-decoration: none;
 }
+
 img{
   display: block;
   margin: auto;
