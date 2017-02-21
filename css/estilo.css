@@ -7,7 +7,11 @@ body{
   background-color: #E2F9B8;
 }
 
+<<<<<<< HEAD
 ul {
+=======
+ul.menu {
+>>>>>>> master
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -16,11 +20,19 @@ ul {
     background-color: #313715;
 }
 
+<<<<<<< HEAD
 li {
     float: left;
 }
 
 li a {
+=======
+ul.menu li {
+    float: left;
+}
+
+ul.menu li a {
+>>>>>>> master
     display: block;
     margin-top: 30px;
     font-size: 20px;
@@ -45,7 +57,13 @@ p{
 
 a{
   text-decoration: none;
+<<<<<<< HEAD
 }
+=======
+  color: black;
+}
+
+>>>>>>> master
 img{
   display: block;
   margin: auto;
@@ -85,3 +103,114 @@ table {
 th, td {
     padding: 15px;
 }
+<<<<<<< HEAD
+=======
+
+ul.detallesProducto {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+ul.ingredientes{
+  margin-left: 5%;
+}
+
+#orangeCrushLogo{
+  width: auto;
+  height: 300px;
+}
+
+#orangeCrushFoto{
+  width: auto;
+  height: 500px;
+}
+
+#fraseProducto{
+  text-align: center;
+}
+
+@media print{
+
+  table, td, th {
+      border: 1px solid;
+      text-align: left;
+  }
+
+  table {
+      margin-top: 5%;
+      margin-bottom: 6%;
+      margin-left: auto;
+      margin-right: auto;
+      border-collapse: collapse;
+      width: 80%;
+  }
+
+  th, td {
+      padding: 15px;
+  }
+
+  ul.detallesProducto {
+      margin-left: 5%;
+      margin-top: 5%;
+  }
+
+  ul.ingredientes{
+    margin-left: 5%;
+  }
+
+  ul.menu {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      height: 100px;
+      overflow: hidden;
+  }
+
+  ul.menu li {
+      float: left;
+  }
+
+  ul.menu li a {
+      display: block;
+      margin-top: 30px;
+      font-size: 20px;
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+  h1{
+    font-size: 40px;
+    margin-top: 80px;
+    text-align: center;
+  }
+
+  p{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  img{
+    display: none;;
+    margin: auto;
+    margin-top: 5%;
+  }
+
+  footer {
+    margin-top: 2%;
+    padding: 14px 16px;
+    text-align: center;
+  }
+
+  footer p {
+    margin: auto;
+  }
+
+}
+>>>>>>> master
